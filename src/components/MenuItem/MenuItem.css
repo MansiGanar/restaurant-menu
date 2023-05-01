@@ -1,0 +1,17 @@
+@media screen and (max-width: 2000px) {
+  .menuItem_list {
+    padding: 0.5rem 2rem;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .menuItem_list {
+    padding: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .menuItem_list {
+    padding: 0.5rem;
+  }
+}

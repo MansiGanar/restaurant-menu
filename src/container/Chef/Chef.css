@@ -1,0 +1,57 @@
+@media screen and (max-width: 2000px) {
+  .chef_main {
+    padding: 1rem 10rem 0 4rem;
+  }
+  .chef_img {
+    width: 100%;
+    height: 55vh;
+    padding-left: 14rem;
+    padding-top: 2rem;
+  }
+  .quote_img {
+    width: 7%;
+    height: 10vh;
+  }
+  .sign_img {
+    width: 20%;
+    height: 10vh;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .chef_img {
+    width: 100%;
+    height: 45vh;
+    padding-left: 1rem;
+    margin-top: 5rem;
+  }
+  .quote_img {
+    width: 13%;
+    height: 9vh;
+  }
+  .chef_main {
+    padding: 1rem 3rem 0 4rem;
+  }
+  .sign_img {
+    width: 50%;
+    height: 10vh;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .chef_img {
+    width: 50%;
+    height: 70vh;
+  }
+  .quote_img {
+    width: 20%;
+    height: 10vh;
+  }
+  .chef_main {
+    padding: 1rem 3rem 0 4rem;
+  }
+  .sign_img {
+    width: 7%;
+    height: 10vh;
+  }
+}
