@@ -19,6 +19,7 @@ const Intro = () => {
   return (
     <div>
       <video
+        style={{ height: "100vh", width: "100%", objectFit: "cover" }}
         className="app__video"
         src={meal}
         ref={vidRef}
@@ -27,7 +28,7 @@ const Intro = () => {
         controls={false}
         muted
       />
-      <div className="app_video-overlay flex__center">
+      <div className="app__video-overlay flex__center">
         <div
           className="app__video-overlay_circle flex__center"
           onClick={handleVideo}
