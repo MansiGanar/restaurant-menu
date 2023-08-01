@@ -29,14 +29,15 @@ const Intro = () => {
         muted
       />
       <div className="app__video-overlay flex__center">
-        <div
-          className="app__video-overlay_circle flex__center"
-          onClick={handleVideo}
-        >
+        <div onClick={handleVideo}>
           {playVideo ? (
-            <BsPauseFill color="#ffff" fontSize={30} />
+            <BsPauseFill color="#ffff" fontSize={60} />
           ) : (
-            <BsPlayFill color="#ffff" fontSize={30} />
+            <BsPlayFill
+              color="#ffff"
+              fontSize={60}
+              style={{ borderRadius: "50%" }}
+            />
           )}
         </div>
       </div>
