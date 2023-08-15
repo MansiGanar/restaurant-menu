@@ -1,7 +1,6 @@
 import React from "react";
 import { SubHeading } from "../../components";
 import { Typography, Grid } from "@mui/material";
-import { FiFacebook, FiTwitter, FiInstagram } from "react-icons/fi";
 
 const Footer = () => {
   return (
