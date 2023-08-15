@@ -2,7 +2,7 @@ import React from "react";
 import "./MenuItem.css";
 import { Grid, Typography } from "@mui/material";
 
-const MenuItem = ({ key, title, price, tags }) => {
+const MenuItem = ({ title, price, tags }) => {
   return (
     <div>
       <Grid container className="menuItem_list">

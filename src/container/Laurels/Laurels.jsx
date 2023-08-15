@@ -5,7 +5,7 @@ import { images, data } from "../../constants";
 import { Grid, Typography } from "@mui/material";
 
 const AwardCard = ({ award: { imgUrl, title, subtitle } }) => (
-  <div classname="app__laurels_awards-card">
+  <div className="app__laurels_awards-card">
     <Grid container>
       <Grid item md={6} style={{ textAlign: "end" }}>
         <img
@@ -31,6 +31,7 @@ const Laurels = () => {
     <div className="app_bg" style={{ color: "white", padding: "2rem" }}>
       <img
         src={images.logo}
+        alt="img logo"
         style={{ width: "10%", textAlign: "center", padding: "1rem" }}
       />
       <div style={{ textAlign: "center" }}>
